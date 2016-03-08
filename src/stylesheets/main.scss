@@ -1,0 +1,23 @@
+$primary-color: #0099CC;
+$secondary-color: #FF00CC;
+
+$font-stack: Georgia, "Times New Roman", serif;
+$header-stack: Georgia, "Times New Roman", serif;
+
+html, body {
+  font-family: $font-stack;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $primary-color;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
+@import "typography";
+@import "boxes";

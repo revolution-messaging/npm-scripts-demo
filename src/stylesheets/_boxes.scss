@@ -1,0 +1,13 @@
+@mixin border-radius($radius) {
+  border-radius: $radius;
+
+  display: flex;
+}
+
+.box {
+  @include border-radius(4px);
+
+  background-color: red;
+  color: purple;
+  padding: 10px;
+}
